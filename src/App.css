@@ -1,0 +1,13 @@
+@import "tailwindcss";
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.containers {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
