@@ -38,10 +38,10 @@ const Header = () => {
               </li>
             </ul>
             <div className="flex items-center gap-5 text-gray-600">
-              <Link to="/shopping-cart" className="hover:text-green-600 transition">
+              <Link to="/profile/shopping-cart" className="hover:text-green-600 transition">
                 <ShoppingCart size={22} />
               </Link>
-              <Link to="/like" className="hover:text-green-600 transition">
+              <Link to="/profile/wishlist " className="hover:text-green-600 transition">
                 <Heart size={22} />
               </Link>
               <button onClick={handleProfileClick} className="bg-[#0c6435] text-white px-6 py-2.5 text-lg font-medium rounded-lg shadow-md hover:bg-green-600 active:scale-95 transition">

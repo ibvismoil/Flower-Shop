@@ -7,6 +7,8 @@ import Register from './pages/Register'
 import NotFound from './pages/NotFound'
 import EditAccount from './pages/profile/main/EditAccount'
 import ProfilePage from './pages/profile/ProfilePage'
+import Wishlist from './pages/profile/main/Wishlist'
+import EditAddress from './pages/profile/main/EditAddress'
 
 const App = () => {
   return (
@@ -18,9 +20,9 @@ const App = () => {
         <Route path="*" element={<NotFound />} />
         <Route element={<ProfilePage />} path="/profile">
             <Route element={<EditAccount />} path="account" />
-            {/* <Route element={<MyProducts />} path="myproducts" /> */}
-            {/* <Route element={<Address />} path="address" /> */}
-            {/* <Route element={<Wishlist />} path="wishlist" /> */}
+            <Route element={<Wishlist />} path="wishlist" />
+            <Route element={<EditAddress />} path="address" />
+            <Route element={<Wishlist />} path="wishlist" />
             {/* <Route element={<Track />} path="track" /> */}
           </Route>
       </Routes>
